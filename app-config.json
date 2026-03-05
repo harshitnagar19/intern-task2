@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name": "backend-service",
+    "environment": "development"
+  },
+
+  "server": {
+    "port": 3000
+  },
+
+  "db": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "Root@1234",
+    "database": "test",
+    "connectionLimit": 10,
+    "waitForConnections": true,
+    "queueLimit": 0,
+    "enableKeepAlive": true,
+    "keepAliveInitialDelay": 0
+  },
+  "jwtkey":{
+    "JWT_SECRET":"digivalet",
+    "JWT_EXPIRES_IN":100000
+  }
+}
